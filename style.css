@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.navbar--s1__title {
+    color: #993EED;
+}
+
+.navbar--s2__input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+
+}
+
+.navbar--s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar--s2__input:focus {
+    outline: none;
+}
+
+.navbar--s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.section {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section--one,
+.section--two,
+.section--three,
+.section--four,
+.section--five,
+.section--six {
+    padding: 10px;
+    margin: 5px;
+    background-color: #993EED;
+    color: white;
+    border-radius: 25px;
+
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.section--one:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+}
+
+.section--one:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+
+}
+
+.section--one:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+
+}
+
+.section--two:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+
+}
+
+.section--three:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+
+}
+
+.section--four:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+
+}
+
+.section--five:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+
+}
+
+.section--six:hover {
+    background-color: white;
+    border-bottom: rgb(73, 143, 204) solid;
+    transition: 0.1s;
+    color: black;
+
+}
+
+img {
+    margin-left: 100px;
+    display: flex;
+}
+
+.sale--image__desc {
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    font-family: "Playwrite GB J", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.recommended {
+    padding: 10px;
+    margin-left: 90px;
+
+}
+
+.course-card {
+    width: 300px;
+}
+
+.course-card img {
+    width: 100%;
+    height: 50%;
+}
+
+.recommened__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.topics {
+    padding: 10px;
+    margin-left: 94px;
+}
+
+.topics__container {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p {
+    padding: 10px;
+    border: 2px solid grey;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+.topics__container p:hover {
+    background-color: gray;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.popular {
+    padding: 0px;
+    margin: 99px;
+    margin-top: 10px;
+
+}
+
+.popular-card {
+    width: 280px;
+}
+
+.popular__container {
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.popular-card img {
+    width: 100%;
+    height: 50%;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer__one p {
+    margin: 20px;
+
+}
+
+.footer__two a {
+    color: skyblue;
+}
+
+@media(max-width:500px) {
+    img {
+        margin-left: 30px;
+        display: flex;
+    }
+}
