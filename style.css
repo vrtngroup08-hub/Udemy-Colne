@@ -331,7 +331,7 @@ img {
 
 
 /* Media Quaries */
-@media screen and (max-width:800px) {
+/* @media screen and (max-width:800px) {
     body {
         font-size: 10px;
     }
@@ -343,7 +343,7 @@ img {
 }
 
 /* Mobile view  */
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
     .course-card {
         flex-basis: 40%;
     }
@@ -362,4 +362,133 @@ img {
     }
 
 
+} */  
+ 
+
+@media screen and (max-width:600px){
+
+body{
+    font-size:12px;
 }
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.navbar--s2,
+.navbar--s3{
+    display:none;
+}
+
+
+.navbar--s4{
+    display:block;
+}
+
+
+/* Categories */
+
+.section{
+    display:flex;
+    overflow-x:auto;
+    justify-content:flex-start;
+}
+
+
+.section div{
+    min-width:100px;
+}
+
+
+/* Hero */
+
+.sale--image{
+    position:relative;
+}
+
+
+.sale--image img{
+    width:100%;
+}
+
+
+.sale--image__desc{
+    top:25%;
+    left:5%;
+    font-size:25px;
+}
+
+
+.sale-image__offer{
+    display:none;
+}
+
+
+
+/* Recommended */
+
+.recommended{
+    margin:0;
+}
+
+
+.recommened__container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+}
+
+
+.course-card{
+    width:100%;
+}
+
+
+.course-card img{
+    margin:0!important;
+}
+
+
+
+/* Topics */
+
+.topics{
+    margin:0;
+}
+
+
+.topics__container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+
+
+/* Popular */
+
+.popular{
+    margin:0;
+}
+
+
+.popular__container{
+    display:grid;
+    grid-template-columns:1fr;
+}
+
+
+.popular-card{
+    width:100%;
+}
+
+
+.popular-card img{
+    margin:0!important;
+}
+
+
+}
+
